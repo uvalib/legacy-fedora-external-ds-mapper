@@ -92,9 +92,9 @@ public class ExternalDSMapper {
     private void processDir(File dir) {
         for (File f : dir.listFiles()) {
             if (f.isFile()) {
-                
+               processFile(f);
             } else {
-                
+               processDir(f); 
             }
         }
     }
