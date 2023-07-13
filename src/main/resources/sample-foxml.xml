@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foxml:digitalObject VERSION="1.1" PID="uva-lib:4382"
+xmlns:foxml="info:fedora/fedora-system:def/foxml#"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
+<foxml:objectProperties>
+<foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Original Journals of the Lewis and Clark Expedition, 1804-1806, unnumbered page"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#createdDate" VALUE="2005-09-09T14:26:29.887Z"/>
+<foxml:property NAME="info:fedora/fedora-system:def/view#lastModifiedDate" VALUE="2010-06-24T18:38:19.154Z"/>
+</foxml:objectProperties>
+<foxml:datastream ID="AUDIT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="false">
+<foxml:datastreamVersion ID="AUDIT.0" LABEL="Audit Trail for this object" CREATED="2005-09-09T14:26:29.887Z" MIMETYPE="text/xml" FORMAT_URI="info:fedora/fedora-system:format/xml.fedora.audit">
+<foxml:xmlContent>
+<audit:auditTrail xmlns:audit="info:fedora/fedora-system:def/audit#">
+<audit:record ID="AUDREC1">
+<audit:process type="Fedora API-M"/>
+<audit:action>ingest</audit:action>
+<audit:componentID></audit:componentID>
+<audit:responsibility>digitalStewardshipSvcs</audit:responsibility>
+<audit:date>2010-06-24T18:38:19.154Z</audit:date>
+<audit:justification>migrated and upgraded from fedora2 repo</audit:justification>
+</audit:record>
+</audit:auditTrail>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DESC" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DESC1.0" LABEL="Uva Descriptive Metadata: amstudies/b000299231/uvaBitonal/metadata/desc/b000299231_001.xml" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="text/xml">
+<foxml:contentLocation TYPE="URL" REF="http://image.lib.virginia.edu/image/amstudies/b000299231/uvaBitonal/metadata/desc/b000299231_001.xml"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="SCREEN" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="SCREEN1.0" LABEL="Screen sized image: amstudies/b000299231/uvaBitonal/screen/b000299231_001.gif" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="image/gif">
+<foxml:contentLocation TYPE="URL" REF="http://image.lib.virginia.edu/image/amstudies/b000299231/uvaBitonal/screen/b000299231_001.gif"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="MAX" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="MAX1.0" LABEL="Max sized image: amstudies/b000299231/uvaBitonal/max/b000299231_001.tif" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="image/tiff">
+<foxml:contentLocation TYPE="URL" REF="http://image.lib.virginia.edu/image/amstudies/b000299231/uvaBitonal/max/b000299231_001.tif"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="PREVIEW" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="PREVIEW1.0" LABEL="Thumbnail sized image: amstudies/b000299231/uvaBitonal/preview/b000299231_001.gif" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="image/gif">
+<foxml:contentLocation TYPE="URL" REF="http://image.lib.virginia.edu/image/amstudies/b000299231/uvaBitonal/preview/b000299231_001.gif"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="POLICY" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="POLICY1.0" LABEL="UVA Public Policy: public" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="text/xml" FORMAT_URI="urn:oasis:names:tc:xacml:1.0:policy">
+<foxml:contentLocation TYPE="URL" REF="http://text.lib.virginia.edu/policy/permit-to-all.xml"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="DC1.0" LABEL="Fedora Internal OAI Dublin Core Metadata" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" SIZE="342">
+<foxml:xmlContent>
+<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+  <dc:title>Original Journals of the Lewis and Clark Expedition, 1804-1806, unnumbered page</dc:title>
+  <dc:identifier>uva-lib:4382</dc:identifier>
+</oai_dc:dc>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="ADMIN" STATE="A" CONTROL_GROUP="E" VERSIONABLE="true">
+<foxml:datastreamVersion ID="ADMIN1.0" LABEL="Uva Administrative Metadata: amstudies/b000299231/uvaBitonal/metadata/admin/b000299231_001.xml" CREATED="2005-09-01T15:00:08.000Z" MIMETYPE="text/xml">
+<foxml:contentLocation TYPE="URL" REF="http://image.lib.virginia.edu/image/amstudies/b000299231/uvaBitonal/metadata/admin/b000299231_001.xml"/>
+</foxml:datastreamVersion>
+</foxml:datastream>
+<foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
+<foxml:datastreamVersion ID="RELS-EXT.0" LABEL="RDF Statements about this object" CREATED="2010-06-24T18:38:19.171Z" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" SIZE="400">
+<foxml:xmlContent>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:fedora-model="info:fedora/fedora-system:def/model#"><rdf:Description rdf:about="info:fedora/uva-lib:4382"><fedora-model:hasModel rdf:resource="info:fedora/uva-lib:CModel1"></fedora-model:hasModel><fedora-model:hasModel rdf:resource="info:fedora/fedora-system:FedoraObject-3.0"></fedora-model:hasModel></rdf:Description></rdf:RDF>
+</foxml:xmlContent>
+</foxml:datastreamVersion>
+</foxml:datastream>
+</foxml:digitalObject>
